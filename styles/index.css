@@ -97,11 +97,12 @@ h2{
   width: 80px;
 }
 
-
 #james-image{
   max-width: 25%; 
   border-radius: 100px;
-  margin: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 30px;
 }
 
 #text{
