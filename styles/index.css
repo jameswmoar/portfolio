@@ -19,7 +19,7 @@ a:hover {
 
 header{
   display: flex;
-  font-family: "Russo One", cursive;
+  font-family: 'Permanent Marker', cursive;
   background-color: #B81D18;
   color: white;
   margin-bottom: 10px;
@@ -28,7 +28,7 @@ header{
 
 #name{
   font-size: 30px;
-  font-family: "Russo One";
+  font-family: 'Permanent Marker', cursive;
   padding: 10px;
   text-decoration: none;
   color: white;
@@ -65,7 +65,7 @@ nav{
 /* MAIN */
 
 h2{
-  font-family: "Russo One";
+  font-family: 'Permanent Marker', cursive;
   font-weight: bold;
   margin-left: 10px;
 }
