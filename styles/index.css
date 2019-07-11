@@ -5,10 +5,22 @@ body{
 
 /* HEADING */
 
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: #202020;
+}
+
 header{
   display: flex;
   font-family: "Russo One", cursive;
-  background-color: rgb(40, 3, 29);
+  background-color: #B81D18;
   color: white;
   margin-bottom: 10px;
   border-radius: 5px;
@@ -33,11 +45,11 @@ nav{
   margin-left: 20px;
   color: white;
   text-decoration: none;
-  border-bottom: 2px solid rgb(40, 3, 29);
+  border-bottom: 2px solid #B81D18;
 }
 
 #pages:hover{
-  border-bottom: 2px solid #ffd967;
+  border-bottom: 2px solid #202020;
 }
 
 /* IMAGE */
@@ -61,7 +73,7 @@ h2{
 #container-dark{
   display: flex;
   border-radius: 5px;
-  background-color: rgb(40, 3, 29);
+  background-color: #202020;
   color: white;
   flex-direction: column;
   margin-bottom: 10px;
@@ -70,8 +82,8 @@ h2{
 #container-light{
   display: flex;
   border-radius: 5px;
-  background-color: #ffd967;
-  color: black;
+  background-color: #B81D18;
+  color: white;
   flex-direction: column;
   margin-bottom: 10px;
 }
@@ -92,6 +104,11 @@ h2{
   justify-content: flex-start;
 }
 
+.links-text{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #logo{
   height: 80px;
   width: 80px;
@@ -106,6 +123,7 @@ h2{
 }
 
 #text{
+  font-family: sans-serif;
   text-align: justify;
   margin-left: 10px;
   margin-right: 10px;
