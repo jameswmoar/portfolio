@@ -1,45 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" type="text/css" href="./styles/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
-      rel="stylesheet"
-    />
-    <title>James Moar - Portfolio</title>
-  </head>
-  <body>
-    <header id="title">
-      <a id="name" href="#">
-        James Moar
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" type="text/css" href="./styles/index.css" />
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+  <title>James Moar - Portfolio</title>
+</head>
+
+<body>
+  <header id="title">
+    <a id="name" href="#">
+      James Moar
+    </a>
+    <nav>
+      <a id="pages" href="#about">
+        About
       </a>
-      <nav>
-        <a id="pages" href="#about">
-          About
-        </a>
-        <a id="pages" href="#work">
-          Work
-        </a>
-        <a id="pages" href="#links">
-          Links
-        </a>
-      </nav>
-    </header>
-    <section>
-      <img
-        id="manchester-image"
-        src="./images/panorama.jpg"
-        alt="Panorama of the city of Manchester"
-      />
-    </section>
-    <section id="about">
-      <div id="container-dark">
-        <h2>About</h2>
-        <div id="container-content">
-          <p id="text">
+      <a id="pages" href="#work">
+        Work
+      </a>
+      <a id="pages" href="#links">
+        Links
+      </a>
+    </nav>
+  </header>
+  <section>
+    <img id="manchester-image" src="./images/panorama.jpg" alt="Panorama of the city of Manchester" />
+  </section>
+  <section id="about">
+    <div id="container-dark">
+      <h2>About</h2>
+      <div id="container-content">
+        <div id="text">
+
+          <p >
             I am a Manchester-based full stack junior developer, currently
             undertaking the Developer Pathway at Northcoders. I am due to
             graduate on 9 August 2019. Following my previous career in the legal
@@ -54,117 +51,125 @@
             to reunite lost items with their owners.
             <br />
             <br />
+            <ul>
+  
+              <li>
+                <b>Languages</b>: JavaScript, basic Python
+              </li>
+              <li>
+                <b>Back-end</b>: Node.js, Express.js, Knex, SQL, PostgreSQL, Flask
+              </li>
+              <li>
+                <b>
+                  Front-end</b>: React.js, HTML5, CSS3, PWA
+              </li>
+              <li>
+                <b>
+                  Testing</b>: Mocha, Chai, Jest, Supertest, Cypress, Sinon, Unit-Test
+              </li>
+              <li>
+                <b>Other</b>: Logic Pro, Pro Tools and Photoshop
+              </li>
+            </ul>
+          
+            <br />
             Please feel free to peruse the various projects below to see my other work.
           </p>
-          <img
-            id="james-image"
-            src="./images/james-moar.jpg"
-            alt="James Moar"
-          />
         </div>
+        <img id="james-image" src="./images/james-moar.jpg" alt="James Moar" />
       </div>
-    </section>
-    <section id="work">
-      <div id="container-light">
-        <h2>Work</h2>
-        <div id="work-content">
-          <div id="sub-section">
-            <h3>Northcoder News</h3>
-            <p>
-              Northcoders News is a social news aggregation, rating and
-              discussion website for accessing and contributing to the latest
-              developments. The project was built using React. Each article on
-              Northcoders News is divided into a particular topic. Each article
-              has a user-driven rating system, which can be provided with up or
-              down votes using the back-end API. Users may add comments to an
-              article, which may also be voted up or down. Users may add
-              additional articles to the website, selecting from existing
-              topics. The website also offers functionality to add any topic of
-              the user's choosing, after which articles may be added under that
-              topic.
-              <br /><br />
-              This is a two-part project, consisting of both back-end API and
-              front-end elements.The backend was constructed using full TDD,
-              utilising mocha, chai and supertest. The API is hosted on Heroku
-              and is available
-              <a href="http://nc-news-james.herokuapp.com/">here</a>. The
-              repository is available
-              <a href="https://github.com/jameswmoar/be-nc-news"> here</a>.
-            </p>
-            <p>
-              The front-end was built in React and is hosted
-              <a href="http://nc-news-james.netlify.com/">here</a>. The
-              repository is available
-              <a href="https://github.com/jameswmoar/fe-nc-news"> here</a>.
-            </p>
-          </div>
-          <div id="sub-section">
-            <h3>Roast Dinner Timings Generator</h3>
-            <p>
-              A small app that can be used to generate the timings for cooking a
-              roast dinner. Simply enter the meat, its weight and the time you
-              wish to eat. All the timings will be generated for you, allowing a
-              stress-free roast experience.
-              <br />
-              <br />
-              <a href="https://roast-dinner-timings.herokuapp.com/"
-                >Try it out</a
-              >.
-              <br />
-            </p>
-          </div>
-          <div id="sub-section">
-            <h3>The Wolf of Paternoster Square</h3>
-            <p>
-              A game that attempts (to an uncertain degree of accuracy) to simulate the intricacies of the stock
-              market. The player starts with £1,000.00 and attempts to make as
-              much money as possible, whilst the market goes about its own
-              business. The player can make initial purchases without pressure,
-              but upon clicking "Enter the trading floor", the market opens and
-              will fluctuate depending on the outcome of random number
-              generation. The player must attempt to keep up with the movements
-              of the market, whilst hoping to avoid the consequences of a market
-              correction!
+    </div>
+  </section>
+  <section id="work">
+    <div id="container-light">
+      <h2>Work</h2>
+      <div id="work-content">
+        <div id="sub-section">
+          <h3>Northcoder News</h3>
+          <p>
+            Northcoders News is a social news aggregation, rating and
+            discussion website for accessing and contributing to the latest
+            developments. The project was built using React. Each article on
+            Northcoders News is divided into a particular topic. Each article
+            has a user-driven rating system, which can be provided with up or
+            down votes using the back-end API. Users may add comments to an
+            article, which may also be voted up or down. Users may add
+            additional articles to the website, selecting from existing
+            topics. The website also offers functionality to add any topic of
+            the user's choosing, after which articles may be added under that
+            topic.
+            <br /><br />
+            This is a two-part project, consisting of both back-end API and
+            front-end elements.The backend was constructed using full TDD,
+            utilising mocha, chai and supertest. The API is hosted on Heroku
+            and is available
+            <a href="http://nc-news-james.herokuapp.com/">here</a>. The
+            repository is available
+            <a href="https://github.com/jameswmoar/be-nc-news"> here</a>.
+          </p>
+          <p>
+            The front-end was built in React and is hosted
+            <a href="http://nc-news-james.netlify.com/">here</a>. The
+            repository is available
+            <a href="https://github.com/jameswmoar/fe-nc-news"> here</a>.
+          </p>
+        </div>
+        <div id="sub-section">
+          <h3>Roast Dinner Timings Generator</h3>
+          <p>
+            A small app that can be used to generate the timings for cooking a
+            roast dinner. Simply enter the meat, its weight and the time you
+            wish to eat. All the timings will be generated for you, allowing a
+            stress-free roast experience.
+            <br />
+            <br />
+            <a href="https://roast-dinner-timings.herokuapp.com/">Try it out</a>.
+            <br />
+          </p>
+        </div>
+        <div id="sub-section">
+          <h3>The Wolf of Paternoster Square</h3>
+          <p>
+            A game that attempts (to an uncertain degree of accuracy) to simulate the intricacies of the stock
+            market. The player starts with £1,000.00 and attempts to make as
+            much money as possible, whilst the market goes about its own
+            business. The player can make initial purchases without pressure,
+            but upon clicking "Enter the trading floor", the market opens and
+            will fluctuate depending on the outcome of random number
+            generation. The player must attempt to keep up with the movements
+            of the market, whilst hoping to avoid the consequences of a market
+            correction!
 
-              <br /><br />
-              Play the game
-              <a href="https://wolf-of-paternoster-square.netlify.com/">here</a>
-              or view the repository on
-              <a href="https://github.com/jameswmoar/fe-tiny-react-apps"
-                >Github</a
-              >.
-              <br />
-              <br />
-              Thanks in particular for the assistance of Sam Moran in completing
-              this project.
-            </p>
-          </div>
+            <br /><br />
+            Play the game
+            <a href="https://wolf-of-paternoster-square.netlify.com/">here</a>
+            or view the repository on
+            <a href="https://github.com/jameswmoar/fe-tiny-react-apps">Github</a>.
+            <br />
+            <br />
+            Thanks in particular for the assistance of Sam Moran in completing
+            this project.
+          </p>
         </div>
       </div>
-    </section>
-    <section id="links">
-      <div id="container-dark">
-        <h2>Links</h2>
-        <p class="links-text">
-          The following sites contain more information about James and his work:
-        </p>
-        <div id="links-content">
-          <a
-            href="https://github.com/jameswmoar/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img id="logo" src="./images/github.png" alt="Github logo" />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/james-moar"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img id="logo" src="./images/linkedin.png" alt="LinkedIn logo" />
-          </a>
-        </div>
+    </div>
+  </section>
+  <section id="links">
+    <div id="container-dark">
+      <h2>Links</h2>
+      <p class="links-text">
+        The following sites contain more information about me:
+      </p>
+      <div id="links-content">
+        <a href="https://github.com/jameswmoar/" target="_blank" rel="noopener noreferrer">
+          <img id="logo" src="./images/github.png" alt="Github logo" />
+        </a>
+        <a href="https://www.linkedin.com/in/james-moar" target="_blank" rel="noopener noreferrer">
+          <img id="logo" src="./images/linkedin.png" alt="LinkedIn logo" />
+        </a>
       </div>
-    </section>
-  </body>
+    </div>
+  </section>
+</body>
+
 </html>
